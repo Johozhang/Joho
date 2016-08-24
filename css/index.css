@@ -1,0 +1,122 @@
+html,
+body {
+	width: 100%;
+	font-family: "微软雅黑";
+}
+
+#quan {
+	/*background: linear-gradient(#ff6600,#990000);*/
+	background-color: #bad0ed;
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	/*text-align: center;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#first {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#leftblock {
+	position: relative;
+	z-index: 10;
+	top: 50%;
+	left: 0;
+	margin-top: 50%;
+}
+
+#rightblock {
+	background-color: #9bbb59;
+	width: 40%;
+	height: 100%;
+	/*z-index: 10;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#title {
+	background-color: #4f81bd;
+	color: #000;
+	z-index: 10000;
+	font-size: 3.2rem;
+	/*word-spacing:80px;*/
+	/*字间距*/
+	letter-spacing: 40px;
+	padding: 10px 20px;
+	width: 80%;
+	text-align: center;
+	border: 1px solid #fff;
+}
+
+#hao {
+	width: 55%;
+	opacity: 0;
+}
+
+#name {
+	color: #fff;
+	font-size: 1.6rem;
+	position: absolute;
+	left: 0;
+	top: -100px;
+	/*opacity: 0;*/
+}
+
+#fengmian {
+	/*position: relative;*/
+}
+
+
+/*简历页*/
+
+h2 {
+	background-color: #0070c0;
+	color: #fff;
+	font-size: 1.6rem;
+	text-align: center;
+	padding: 5px;
+	width: 90%;
+	margin: 10px auto;
+	border: 1px solid blue;
+}
+
+#contain {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.xin {
+	margin: 20px 20px;
+}
+
+.xin p,
+.xin li {
+	font-size: 1.4rem;
+	/*margin: 5px;*/
+}
+
+#tou {
+	position: absolute;
+	width: 15%;
+	right: 10%;
+	top: 15%;
+}
+
+h3 {
+	border-left: 3px solid #0070c0;
+	background-color: #dbe5f0;
+	color: #0070c0;
+	padding: 3px 10px;
+	font-size: 1.4rem;
+}
+
+h4 {
+	font-size: 2.6rem;
+}
